@@ -25,7 +25,7 @@ For this section it was removed any unwanted columns, outliers and bad data. Als
 <p align="center"><img src="images/graphs.PNG" alt="graphs" border="0"><br /></p>
 
 ## Model creation
-Using the <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html" target="blank"> random forest regressor from scikit-learn </a> as the prediction model, it was possible to train the data and compare the results to the actual sample. After the model was built, using <a href="https://joblib.readthedocs.io/en/latest/ target="blank"> joblib </a> it was exported to be further implemented in an API.
+Using the <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html" target="blank"> random forest regressor from scikit-learn </a> as the prediction model, it was possible to train the data and compare the results to the actual sample. After the model was built, using <a href="https://joblib.readthedocs.io/en/latest/" target="blank"> joblib </a> it was exported to be further implemented in an API.
 
 ## API creation
 
