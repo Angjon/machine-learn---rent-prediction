@@ -7,7 +7,7 @@ import sqlite3
 Aplicativo = Flask(__name__)
 
 # Load model
-modelo = joblib.load('Modelo_Floresta_Aleatorio_v100.pkl')
+modelo = joblib.load('data/Modelo_Floresta_Aleatorio_v100.pkl')
 
 
 ## Function to receive API
@@ -52,10 +52,10 @@ def funcao_01(area,rooms,bathroom,parking_spaces,floor,animal,furniture,hoa,prop
         #close conection
         cursor.close()
 
-        return {'Valor aluguel': str(previsao)}
+        return {'Rent price': str(previsao)}
 
     except:
-        return{'Aviso':'Deu algum erro!'}
+        return{'Warning':'Something went wrong!'}
 
 
 if __name__ == '__main__':
