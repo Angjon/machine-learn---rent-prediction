@@ -52,7 +52,7 @@ def funcao_01(area,rooms,bathroom,parking_spaces,floor,animal,furniture,hoa,prop
         #close conection
         cursor.close()
 
-        return {'Rent price': str(previsao)}
+        return {'Rent price R$': str(previsao)}
 
     except:
         return{'Warning':'Something went wrong!'}

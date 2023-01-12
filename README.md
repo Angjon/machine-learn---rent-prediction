@@ -37,6 +37,9 @@ Using the <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ens
 The API was built using a combination of a remote server instantiated by Flask and a connection to said API on jupyter notebook. After the connection to the API was established, by passing in the parameters to the URL, the model would predict that rent value as an output. After the prediction was made, the operation was stored in a database, created using the aid of <a href="https://www.sqlite.org/index.html" target="blank"> SQlite </a> library.
 
 ## Results
+With the connection to the API established, by tweaking the parameters in the connection the output is presented simultaneously in jupyter notebook and in the remote server, accessed by the local server URL. 
+<p align="center"><img src="images/API_connection.PNG" alt="API_connection" border="0"><br /></p>
+<p align="center"><img src="images/API_output.PNG" alt="API_output" border="0"><br /></p>
 
 ## Authors
 <p>Jonas Angulski <p>
